@@ -2,4 +2,21 @@
   background-color: darkorange;
   width: 40%;
   height: 50vh;
+  .range {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .intro {
+    background-color: aquamarine;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    .intro-con {
+      .intro1 {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
 }
