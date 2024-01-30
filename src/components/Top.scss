@@ -1,0 +1,25 @@
+.blueimage {
+//   display: flex;
+  // flex-direction: column;
+  .img{
+    height: 50%;
+  }
+  .angela {
+    display: flex;
+    background-color: coral;
+    .lee {
+      display: flex;
+      flex-direction: column;
+      
+    //   transform: translateY(-50%);
+    .avatar{
+        position: relative;
+        margin-top: 50px;
+    }
+    }
+    .posts{
+        gap: 100px;
+        padding-inline: 30px;
+    }
+  }
+}

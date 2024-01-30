@@ -1,0 +1,13 @@
+.posts {
+  display: flex;
+  // padding-left: 100px;
+
+  .postitems {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border-right: 1px solid black;
+    align-items: center;
+    padding-right: 20px;
+  }
+}

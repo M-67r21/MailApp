@@ -1,0 +1,22 @@
+.leftContent {
+  display: flex;
+  flex: 6;
+  gap: 10px;
+  height: 100vh;
+  .rightSide {
+    width: 75%;
+    background-color: #f8fafc;
+    // margin-left: 10px;
+
+    .top {
+      height: 40vh;
+      background-color: aquamarine;
+      padding-left: 10px;
+      
+    }
+  }
+  .leftSide {
+    width: 25%;
+    height: 100%;
+  }
+}
