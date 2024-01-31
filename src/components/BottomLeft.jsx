@@ -1,7 +1,8 @@
 import Range from "./Range";
 import "./BottomLeft.scss";
 import Info from "./Info";
-
+import one from "../assets/unsplash1.png";
+import two from "../assets/unsplash2.png";
 
 const BottomLeft = () => {
   return (
@@ -16,10 +17,21 @@ const BottomLeft = () => {
             <h4>Intro</h4>
             <p>...</p>
           </div>
-          <Info/>
+          <p>I am an experienced joiner with well developed skills.</p>
+          <div className="items">
+            <Info />
+          </div>
+          <div className="images">
+            <div className="photos">
+              <h4>Photos</h4>
+              <p>See All</p>
+            </div>
+            <div className="one">
+              <img src={one} alt="" />
+              <img src={two} alt="" />
+            </div>
+          </div>
         </div>
-
-        <p>I am an experienced joiner with well developed skills.</p>
       </div>
     </div>
   );
